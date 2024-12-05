@@ -1,1711 +1,232 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-
-    <title>Livetv</title>
-
-    <meta name="description" content="Visit LiveTV website. Live streams from every pitch, court or ice ring. Watch highlights from importantat sports events only at Live TV."/>
-    <meta name="keywords" content="livetv, livetv streams, live tv, sport streams, livetv videos, livetv soccer, livetv football, livetv hockey, livetv tennis, live televiseon, internet tv, live sport streams"/>
-
-    <link rel="stylesheet" type="text/css" href="/style/style.css"/>
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/translit.js?1"></script>
-    <script type="text/javascript" src="/js/int.js?59"></script>
-    <script type="text/javascript" src="/js/overlay.js"></script>
-
-    <link rel='canonical' href='https://liveru.sx'/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132281684-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJTv - Endless Entertainment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
         }
 
-        gtag('js', new Date());
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
 
-        gtag('config', 'UA-132281684-1');
-    </script>
+        header h1 {
+            margin: 0;
+        }
 
+        header p {
+            font-size: 18px;
+            margin: 5px 0 0;
+        }
 
-    
+        .button-container {
+            margin: 20px 0;
+        }
 
-	
-    <script type="text/javascript"
-            src="https://tumblebit.org/script.packed.js?v=12112805"></script>
-    <script type="text/javascript"
-            src="https://tumblebit.org/license.packed.js?v=12112805"></script>
+        .button-container button {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+        }
 
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
 
-    
-    
+        .video-container {
+            margin: 20px auto;
+            width: 840px; /* Increased width */
+            height: 630px; /* Increased height */
+            position: relative;
+            overflow: hidden; /* Hide any overflow content */
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            object-fit: contain; /* Ensure the video fits without distortion */
+        }
+
+        .control-buttons {
+            position: absolute;
+            bottom: 10px; /* Position buttons at the bottom */
+            left: 10px;
+            right: 10px;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .control-buttons button {
+            margin: 5px;
+            background-color: rgba(40, 167, 69, 0.7);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .control-buttons button:hover {
+            background-color: rgba(40, 167, 69, 1);
+        }
+
+        .note {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .current-channel {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #555;
+            margin: 0;
+        }
+    </style>
 </head>
-
 <body>
 
-
-
-
-
-<table cellpadding=0 cellspacing=0 width="100%" bgcolor="#c8c8c8">
-    <tr>
-        <td style="display: block;"></td>
-        <td width=1300>
-
-            <table width="100%" bgcolor="#f0f0f0" cellpadding=0 cellspacing=0 style="box-shadow: 0 0 10px #000000;">
-                <tr>
-                    <td height=101>
-
-                        <table background="/img/h_bg.gif" width="100%" height="100%" cellpadding=0 cellspacing=0>
-                            <tr>
-                                <td height=101 width=262><a href="/"><img alt="LiveTV / Free Live Sport Streams"
-                                                                          src="/img/logo_en.jpg"></a></td>
-
-                                <td valign="top">
-
-                                    <table width="100%" height="100%" cellpadding=0 cellspacing=0>
-                                        <tr>
-                                            <td align="center" height=70 valign="top">
-
-                                                <table cellpadding=0 cellspacing=1>
-                                                    <tr>
-                                                        <td>
-
-                                                        </td>
-                                                    </tr>
-                                                </table>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top">
-
-                                                <table cellpadding=0 cellspacing=0
-                                                       style="position: relative; left: -1px;">
-                                                    <tr>
-                                                        <td width=1>
-
-
-                                                            <div style="position: relative; left: -248px; top: -9px;">
-
-                                                                <div id="form">
-                                                                    <form action="#">
-                                                                        <!--<nobr><input type="text" class="binput" name="msq" id="reserc" size=50>
-                                                                        &nbsp;
-                                                                        <input type="submit" class="binput" value="Search"></nobr>-->
-                                                                    </form>
-                                                                    <!--<br><span class="date">For example:  &nbsp;<a class="small" href="/en/megasearch/?msq=CSKA+Moscow">CSKA Moscow</a> &nbsp;<a class="small" href="/en/megasearch/?msq=Dynamo+Moscow">Dynamo Moscow</a> &nbsp;<a class="small" href="/en/megasearch/?msq=barcelona">barcelona</a> &nbsp;<a class="small" href="/en/megasearch/?msq=baseball">baseball</a> &nbsp;<a class="small" href="/en/megasearch/?msq=mlb">mlb</a>-->
-                                                                </div>
-
-                                                                <input id="premese" size=20 type="text" value="Search">
-
-
-                                                            </div>
-                                                        </td>
-                                                        <td>
-
-                                                            <nobr><a class="menu" href="/soccer/"><b>BROADCASTS</b></a>
-                                                            </nobr>
-                                                        </td>
-                                                        <td width=30>&nbsp;</td>
-                                                        <td class="small">
-                                                            <nobr><a class="menu" href="#"><b>LIVE SCORE</b></a></nobr>
-                                                        </td>
-                                                        <td width=30>&nbsp;</td>
-
-                                                        <td>
-                                                            <a class="menu" href="#">
-                                                                <nobr><b>RESULTS</b></nobr>
-                                                            </a>
-                                                        </td>
-                                                        <td width=30>&nbsp;</td>
-                                                        <td>
-                                                            <a class="menu" href="#">
-                                                                <nobr><b>VIDEO ARCHIVE</b></nobr>
-                                                            </a>
-                                                        </td>
-                                                        <td width=30>&nbsp;</td>
-
-                                                        <td>
-
-                                                            <a class="menu" href="#">
-                                                                <nobr><b>BETTING</b></nobr>
-                                                            </a>
-
-                                                        </td>
-                                                        <td width=30>&nbsp;</td>
-                                                        <td>
-
-                                                            <a class="menu" href="#">
-                                                                <nobr><b>FAN CLUBS</b></nobr>
-                                                            </a>
-
-                                                        </td>
-
-                                                    </tr>
-                                                </table>
-
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-
-                                <td width=216 background="/img/h2_bg.gif" valign="top">
-
-                                    <table width="100%" cellpadding=0 cellspacing=0>
-                                        <tr>
-
-
-                                            <td align="center" height=36>
-
-                                                <table align="center">
-                                                    <tr>
-                                                        <td width=16>
-
-                                                            <a href="#" OnClick="loginform(); return false;"><img
-                                                                        alt="Login" src="/img/a_p.gif"></a>
-
-                                                        </td>
-                                                        <td valign="top">
-
-                                                            <a class="headtext" href="#"
-                                                               OnClick="loginform(); return false;">Login</a>
-
-                                                        </td>
-                                                        <td width=5>
-                                                            &nbsp;
-
-                                                        </td>
-                                                        <td width=16>
-                                                            <a href="#"><img alt="Sign Up" src="/img/a_r.gif"></a>
-
-                                                        </td>
-                                                        <td valign="top">
-                                                            <a class="headtext" href="#">Sign Up</a>
-
-                                                        </td>
-                                                    </tr>
-                                                </table>
-
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" height=23>
-
-
-                                                <div id="addlng" style="display: none; position: absolute;">
-
-                                                    <table bgcolor="#ffffff"
-                                                           style="opacity: .92; filter:Alpha(Opacity=92 Style=0);"
-                                                           width=160>
-                                                        <tr>
-                                                            <td bgcolor="#1f4c85">
-
-                                                                <table>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_bg.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">
-                                                                                &#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_de.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Deutsch</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_en.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">English</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_es.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Espa&#241;ol</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_fr.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Fran&#231;ais</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_it.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Italiano</a>
-
-                                                                        </td>
-                                                                    </tr><!--
-                                    <tr>
-                                        <td>
-
-                                            <a href="/lng.php?kz"><img width=22 height=15 src="/img/f_kz.gif"></a>
-
-                                        </td>
-                                        <td align="left">
-
-                                            <a class="headtext" href="/lng.php?kz">&#1178;&#1072;&#1079;&#1072;&#1179;&#1096;&#1072;</a>
-
-                                        </td>
-                                    </tr>-->
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_pl.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Polski</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_pt.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Portugu&#234;s</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_ru.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">
-                                                                                &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="/#"><img width=22
-                                                                                                        height=15
-                                                                                                        src="/img/f_rs.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">Srpski</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_tr.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">T&#252;rk&#231;e</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-
-                                                                            <a href="#"><img width=22
-                                                                                                       height=15
-                                                                                                       src="/img/f_ua.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="left">
-
-                                                                            <a class="headtext" href="#">
-                                                                                &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;</a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-
-                                                </div>
-
-
-                                                <a href="#"><img width=22 height=15
-                                                                           alt="&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;"
-                                                                           src="/img/f_ru.gif"></a><a
-                                                        href="#"><img width=22 height=15 alt="English"
-                                                                                src="/img/f_en.gif"></a><a
-                                                        href="#"><img width=22 height=15 alt="Deutsch"
-                                                                                src="/img/f_de.gif"></a><a
-                                                        href="#"><img width=22 height=15 alt="Fran&#231;ais"
-                                                                                src="/img/f_fr.gif"></a><a
-                                                        href="#"><img width=22 height=15 alt="Espa&#241;ol"
-                                                                                src="/img/f_es.gif"></a><a
-                                                        href="#"><img width=22 height=15 alt="Portugu&#234;s"
-                                                                                src="/img/f_pt.gif"></a><a
-                                                        href="#"><img width=22 height=15
-                                                                                alt="T&#252;rk&#231;e"
-                                                                                src="/img/f_tr.gif"></a>
-
-
-                                                <a OnClick="document.getElementById('addlng').style.display = 'block';"
-                                                   href="#null"><img src="/img/plusflag.gif"></a>
-
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" height=26 valign=bottom>
-
-                                                <table cellpadding=0 cellspacing=0>
-                                                    <tr>
-                                                        <td>
-
-                                                            <a class=menu href="#"><b>FORUM</b></a>
-
-
-                                                        </td>
-                                                        <td width=10>
-
-                                                            &nbsp;
-
-                                                        </td>
-                                                        <td>
-
-                                                            <a class="menu" href="/tos"><b>FAQ</b></a>
-
-                                                        </td>
-                                                        <td width=10>
-
-                                                            &nbsp;
-
-                                                        </td>
-
-                                                        <td>
-
-                                                            <a class=menu href="/dmca"><b>CONTACT</b></a>
-
-                                                        </td>
-                                                    </tr>
-                                                </table>
-
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-                            </tr>
-                        </table>
-
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
-                        
-                        <table width="100%" cellpadding=0 cellspacing=4 style="margin-bottom: 5px;">
-                            <tr>
-                                <td>
-
-                                    <table width="100%" cellpadding=0 cellspacing=0>
-                                        <tr>
-                                            <td colspan=3>
-
-
-                                                <table height=76 width="100%" cellpadding=3 cellspacing=1>
-                                                    <tr>
-                                                        <td id="bbp1" valign="top" background="/img/lbg5.gif"
-                                                            width="33%" style="background-repeat: repeat-x;">
-
-
-                                                            <span style="margin-left: 8px; " class="bbtitle">New on LiveTV</span>
-
-
-                                                        </td>
-                                                        <td valign="top" background="/img/lbg5.gif" width="33%"
-                                                            style="background-repeat: repeat-x;">
-
-
-                <span style="margin-left: 8px; " class="bbtitle">Matches of Your Teams
-                &nbsp;
-            <a class="headtext" href="/soccer"><img src="/img/myteams_en.png"></a>
-                </span>
-
-                                                            <table cellpadding=2 cellspacing=2 width="96%"
-                                                                   align="center" style="margin-top: 7px;">
-
-                                                                <tr>
-                                                                    <td align="center">
-
-                                <span class="liveb1">
-                                In order to view this block you have to <a class="mtwhite" href="#">register</a>
-                                or <a class="mtwhite" href="#" OnClick="loginform(); return false;">login</a>
-                                </span>
-
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
-                                                        </td>
-                                                        <td valign="top" background="/img/lbg5.gif" width="33%"
-                                                            style="background-repeat: repeat-x;">
-
-
-                                                            <span style="margin-left: 8px; " class="bbtitle">Best Odds Today</span>
-
-                                                            <div id="bbbetday">
-                                                                <table cellpadding=2 cellspacing=2 width="92%"
-                                                                       align="center" style="margin-top: 7px;">
-                                                                    <tr>
-                                                                        <td rowspan=2 align="center">
-
-                                                                            <a href="#"><img src="/img/bbs1.gif"></a>
-
-                                                                        </td>
-                                                                        <td align="center">
-
-                                                                            <a class='mtwhite' href='https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36'>
-                                             Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
-                                                                        </td>
-                                                                        <td rowspan=2 align="center">
-
-                                                                            <a href="#"><img src="/img/bbs2.gif"></a>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td align="center">
-
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </div>
-
-
-                                                        </td>
-                                                    </tr>
-                                                </table>
-
-
-                                            </td>
-                                        </tr>
-                                        <tr height="19">
-                                            <td>
-
-                                                &nbsp;&nbsp;&nbsp;<span
-                                                        class="date">Server time zone: 06:33                                                    (<a class="small" href="#">UTC +1</a>)</span>
-
-                                            </td>
-                                            <td align="center">
-
-
-                                            </td>
-                                            <td align="right" valign="top" width="60">
-
-                                                <a href="#"><img style="margin-right: 1px; margin-top: 1px;"
-                                                                 src="/img/bbset.gif"></td>
-                                        </tr>
-
-
-                                        <tr>
-                                            <td height=2 colspan=3>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan=3 align="center">
-
-                                                <br/>
-                                                <a rel="sponsored" href="https://mu.fastmui.com/redirect.aspx?pid=121209&bid=2112&lpid=1979" target="_blank">
-<img src="https://papatrol.xyz/202403_woo/vb_woo.gif" width="468" height="60"> </a>                                                <br/>
-                                                <br/>
-
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-                            </tr>
-                        </table>
-
-
-                        <script type="text/javascript">
-
-                            if (get_cookie('lq') != '1') {
-
-                                document.cookie = "lq=1;path=/;expires=Sun, 18 Oct 2015 02:25:39 +0300"
-
-                                document.write('<scr' + 'ipt charset="utf-8" src="https://www2.livetv.ru/export/cip.php?lng=en"></scr' + 'ipt>');
-
-                            }
-
-                            if (get_cookie('apr') == '') {
-
-                                var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
-
-                                document.cookie = "apr=" + pixelRatio + ";path=/;expires=Wed, 2 Dec 2030 00:00:00"
-
-                            }
-
-                            if (get_cookie('brow') == '') {
-
-                                navigator.sayswho = (function () {
-                                    var ua = navigator.userAgent, tem,
-                                        M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
-                                    if (/trident/i.test(M[1])) {
-                                        tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
-                                        return 'IE ' + (tem[1] || '');
-                                    }
-                                    if (M[1] === 'Chrome') {
-                                        tem = ua.match(/\b(OPR|Edge)\/(\d+)/);
-                                        if (tem != null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
-                                    }
-                                    M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
-                                    if ((tem = ua.match(/version\/(\d+)/i)) != null) M.splice(1, 1, tem[1]);
-                                    return M.join(' ');
-                                })();
-
-                                var browser = (navigator.sayswho.substring(0, 3));
-
-                                document.cookie = "brow=" + browser + ";path=/;expires=Wed, 2 Dec 2030 00:00:00";
-
-                            }
-
-                        </script>
-
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-<table width="100%" cellpadding=0 cellspacing=0>
-    <tr>
-        <td width=245 valign="top">
-<!-- 21.6.2021 404 error
-            <script type="text/javascript">
-
-                setInterval(reloadliveblock, 3600000);
-
-                function reloadliveblock() {
-
-                    $('#upcoming').load('/ajax/leftblock.php?lng=en');
-
+    <header>
+        <h1>KJTv</h1>
+        <p>Endless Entertainment</p>
+    </header>
+
+    <div class="button-container">
+        <button onclick="changeChannel('Star Sports 3', 'https://cdn.crichdplays.ru/embed2.php?id=starsp3')">Star Sports 3</button>
+        <p class="description">Catch live events and sports updates from Star Sports 3.</p>
+
+        <button onclick="changeChannel('Star Sports 4', 'https://cdn.crichdplays.ru/embed2.php?id=starsp4')">Star Sports 4</button>
+        <p class="description">Watch live sports action from Star Sports 4.</p>
+
+        <button onclick="changeChannel('Willow TV', 'https://cdn.crichdplays.ru/embed2.php?id=willow')">Willow TV</button>
+        <p class="description">The best channel for cricket lovers worldwide.</p>
+
+        <button onclick="changeChannel('Sky Sports 2', 'https://cdn.crichdplays.ru/embed2.php?id=skysp2')">Sky Sports 2</button>
+        <p class="description">Live sports coverage from Sky Sports 2.</p>
+
+        <button onclick="changeChannel('Sky Sports FB', 'https://cdn.crichdplays.ru/embed2.php?id=skyfb')">Sky Sports FB</button>
+        <p class="description">Follow all the football action on Sky Sports FB.</p>
+    </div>
+
+    <div class="current-channel">
+        Currently Playing: <span id="currentChannel">Star Sports 4</span>
+    </div>
+
+    <div class="video-container">
+        <iframe id="videoFrame" src="https://cdn.crichdplays.ru/embed2.php?id=starsp4" allowfullscreen></iframe>
+        
+        <!-- Control Buttons: Fullscreen and Mute/Unmute -->
+        <div class="control-buttons">
+            <button id="fullscreenButton" onclick="goFullscreen()">🔲 Fullscreen</button>
+            <button id="muteButton" onclick="toggleMute()">🔊 Mute</button>
+        </div>
+        
+        <div class="note">🔊 Video is unmuted by default. Click to mute/unmute.</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 KJTv. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Function to dynamically change the channel and update the display
+        function changeChannel(channelName, url) {
+            const videoFrame = document.getElementById('videoFrame');
+
+            // Update the iframe source to load the new channel
+            videoFrame.src = url + '&autoplay=1';
+
+            // Update the currently playing channel name
+            document.getElementById('currentChannel').textContent = channelName;
+
+            // Scroll to the video area when a new channel is selected
+            videoFrame.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        let isMuted = false;
+
+        // Function to toggle mute/unmute
+        function toggleMute() {
+            const videoFrame = document.getElementById('videoFrame');
+            const muteButton = document.getElementById('muteButton');
+            const frameWindow = videoFrame.contentWindow;
+
+            if (isMuted) {
+                // Unmute the video
+                try {
+                    frameWindow.postMessage({ event: 'command', func: 'unMute', args: [] }, '*');
+                } catch (error) {
+                    console.warn('Unmute not supported for this iframe content.');
                 }
-
-            </script> -->
-
-
-            <table width=245 cellpadding=0 cellspacing=0>
-                <tr>
-                    <td height=25 background="/img/title_en_upcoming.gif" align=right>
-
-
-                    </td>
-                </tr>
-                <tr>
-                    <td background="/img/l_bg.gif">
-
-
-                        <table align="center" cellpadding=3 style="margin-top: 6px; margin-bottom: 6px;">
-                            <tr>
-
-                                <td><a href="/soccer/"><img id="s1" title="Football" alt="Football" width=34 height=34
-                                                            src="/img/sport/sport1.gif" style="cursor: pointer;"></a>
-                                </td>
-                                <td><a href="/hockey/"><img id="s2" title="Ice Hockey" alt="Ice Hockey" width=34
-                                                            height=34 src="/img/sport/sport2.gif"
-                                                            style="cursor: pointer;"></a></td>
-                                <td><a href="/basketball/"><img id="s3" title="Basketball" alt="Basketball" width=34
-                                                                height=34 src="/img/sport/sport3.gif"
-                                                                style="cursor: pointer;"></a></td>
-                                <td><a href="/tennis/"><img id="s4" title="Tennis" alt="Tennis" width=34 height=34
-                                                            src="/img/sport/sport4.gif" style="cursor: pointer;"></a>
-                                </td>
-                                <td><a href="/volleyball/"><img id="s5" title="Volleyball" alt="Volleyball" width=34
-                                                                height=34 src="/img/sport/sport5.gif"
-                                                                style="cursor: pointer;"></a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="/boxing/"><img id="s6" title="Boxing" alt="Boxing" width=34 height=34
-                                                            src="/img/sport/sport6.gif" style="cursor: pointer;"></a>
-                                </td>
-                                <td><a href="/moto_gp/"><img id="s7" title="Racing" alt="Racing" width=34 height=34
-                                                             src="/img/sport/sport7.gif" style="cursor: pointer;"></a>
-                                </td>
-                                <td><a href="/others"><img title="others" alt="others" width=34 height=34
-                                                           src="/img/sport/sport8.gif"></a></td>
-                                <td><a href="/others"><img id="s9" title="Others" alt="Others" width=34 height=34
-                                                           src="/img/sport/sport9.gif" style="cursor: pointer;"></a>
-                                </td>
-                                <td>
-                                    <div id="lbcfg" class="tif" style="margin: 9px; position: absolute;"></div>
-                                    <a href='/soccer'><img title='Allupcoming sport events' width=34 height=34
-                                                           src="/img/setup.gif" style="cursor: pointer;"></a></td>
-
-
-                            </tr>
-                        </table>
-
-
-                    </td>
-                </tr>
-                <tr>
-                    <td background="/img/l_bg.gif">
-
-        <span id="upcoming">
-        <table width=230 style="margin-left: 7px;" cellspacing=0>
-                        <tr bgcolor="#f0f0f0">
-                            <td height=22>
-
-                                <img alt="" src="/img/s_evr.gif">
-
-                            </td>
-                            <td width="94%">
-
-                                <span class="date"><b>Top Events LIVE</b></span>
-
-                            </td>
-                        </tr>
-
-
-            <tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://ltbgirights.xyz/view/c58u6bbtsmnxz7f?l=3707025290" rel="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
- 			<br><a class="live" href="https://ltbgirights.xyz/view/c58u6bbtsmnxz7f?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">03:10 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://ltbgirights.xyz/view/3ddojcbw3e8nipo?l=3707025290" rel="sponsored">Sinner, Jannik - Zverev, Alexander</a>
- 			<br><a class="live" href="https://ltbgirights.xyz/view/3ddojcbw3e8nipo?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">23:12 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://ltbgirights.xyz/view/mqjushh5748u029?l=3707025290" rel="sponsored">Daniel, Taro - Fucsovics, Marton</a>
- 			<br><a class="live" href="https://ltbgirights.xyz/view/mqjushh5748u029?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">22:53 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36?safe_links=true?l=3707025290" rel="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
- 			<br><a class="live" href="https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36?safe_links=true?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">03:10 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://borbone.xyz/2/3dzmfsh7v6/10xl0214fk509d46?safe_links=true?l=3707025290" rel="sponsored">Sinner, Jannik - Zverev, Alexander</a>
- 			<br><a class="live" href="https://borbone.xyz/2/3dzmfsh7v6/10xl0214fk509d46?safe_links=true?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">23:12 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<tr><td colspan="2" height="38" valign="top">
- <table cellpadding="1" cellspacing="2" width="100%">
- 	<tbody>
- 	<tr>
-		<td width="34" align="center" valign="top">
-		<img width="27" height="25" alt="Tennis" src="/img/category/tennis.gif"></td>
- 		<td><a class="live" href="https://borbone.xyz/2/jh37i493b4/10cds214ie433t54?safe_links=true?l=3707025290" rel="sponsored">Daniel, Taro - Fucsovics, Marton</a>
- 			<br><a class="live" href="https://borbone.xyz/2/jh37i493b4/10cds214ie433t54?safe_links=true?l=3707025290" rel="sponsored">
- 			<img src="/img/live.gif"></a><span class="live"> &nbsp;  </span>
- 			<br> <span class="evdesc">22:53 (Tennis)</span>
- 		</td>
- 	</tr>
- 	</tbody>
- </table>
- </td></tr>
-<!--<lastupdate>1724045633</lastupdate>-->
-
-
-        </table>
-        </span>
-
-                    </td>
-                </tr>
-                <tr>
-                    <td height=23 background="/img/l_b.gif" align="right" valign="top">
-
-                        <a class="white" href="/soccer/">Show All - <img title="Show all upcoming events"
-                                                                         src="/img/s_w.gif"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </td>
-                </tr>
-            </table>
-
-            <br>
-
-
-        </td>
-        <td valign="top">
-
-            
-                <table id="matchoftheday" cellpadding=0 cellspacing=0 width="100%" background="/img/mrb.gif"
-                       bgcolor="#ffffff">
-                    <tr>
-                        <td width="50%" valign="top">
-
-                            <table cellpadding=0 cellspacing=0 width="100%">
-                                <tr>
-                                    <td bgcolor="#e10000" background="/img/m1.gif" style="background-repeat: no-repeat;"
-                                        height=25>
-
-                                        
-                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                        <span class="liveb1"><b>Match of the Day</b></span>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#ffffff" background="/img/mrb.gif">
-
-                                        <br>
-
-
-                                        <table align="center">
-                                            <tr>
-
-                                                <td width=42 valign="top">
-
-                                                    <img src='/img/category/tennis.png'>
-                                                </td>
-
-                                                <td>
-
-                                                    <table>
-                                                        <tr>
-
-                                                            <td colspan='3' style="font-weight: bold;">
-                                                                <a href='https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36' rel='sponsored'>
-                                             Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>                                                            </td>
-
-                                                            </tr>
-
-                                                        <tr>
-                                                            <td colspan=3 align="center">
-
-                                                                <font color="#a0a0a0">Tennis                                                                    , 03:10</font>
-
-
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan=3 align="center">
-                                                                <a href='https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36' rel='sponsored'>
-                                            Video Broadcast</a>&nbsp;
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-
-                                                </td>
-
-                                                <td width=42 align="right" valign="top">
-
-
-                                                </td>
-
-                                            </tr>
-                                        </table>
-
-                                        <br>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#2b62a5" background="/img/mrb.gif" height=25>
-
-                                        <table cellpadding=0 cellspacing=0 width="100%">
-                                            <tr>
-                                                <td>
-
-                                                    &nbsp;&nbsp;
-                                                    <span class="liveb1"><b>What is LiveTV About?</b></span>
-
-                                                </td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#ffffff" background="/img/mrb.gif">
-
-                                        <table cellpadding=9 width="100%">
-                                            <tr>
-                                                <td>
-
-                                                    <div class="text">
-
-
-                                                        LiveTV is a free website for live sport streams, sport videos and live score. We offer you a great possibility to follow numerous live sport events.
-<br></br>
-LiveTV helps fans all over the world to watch live 
-<a href="https://liveru.sx/football">US football</a>,
-<a href="https://liveru.sx/basketball">basketball</a>, 
-<a href="https://liveru.sx/soccer">soccer</a>, <a href="https://liveru.sx/hockey">hockey</a> and many other sports. Right from the stadium to your living room.
-<br></br>
-All the sport streams are free, we don't charge anything for using our site and never will.
-<br></br>
-We try to keep watching sports with us as simple as possible. You don't need to install anything, the link you click on will take you to the stream and it will open in your browser. Close the ads and enjoy.
-                                                    </div>
-
-                                                    <br><br>
-
-                                                    <table align="center">
-                                                        <tr>
-                                                            <td>
-
-                                                                <img src="/img/LiveTV.png" alt="LiveTV logo">
-
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-
-                                                </td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </td>
-                        <td width="50%" valign="top" bgcolor="#ffffff" background="/img/m2b.gif"
-                            style="background-repeat: repeat-y;">
-
-
-                            <table cellpadding="0" cellspacing="0" width="100%">
-    <tbody>
-    <tr>
-        <td width="50%" bgcolor="#2862a8" background="/img/m2.gif" style="background-repeat: no-repeat;" height="25">
-
-            <table cellpadding="0" cellspacing="0">
-                <tbody>
-                <tr>
-                    <td>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="mwhite" href="/soccer">Other Top Broadcasts</a>
-                    </td>
-                    <td>
-                        &nbsp;&nbsp;&nbsp;
-                        <a href="/soccer"><img src="/img/m1s.gif"></a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
-        </td>
-        <td width="50%" bgcolor="#e10000" background="/img/m3.gif" style="background-repeat: no-repeat;" height="25">
-
-            <table cellpadding="0" cellspacing="0">
-                <tbody>
-                <tr>
-                    <td>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="mwhite" href="#">Popular Videos</a>
-                    </td>
-                    <td valign="bottom">
-                        &nbsp;&nbsp;&nbsp;
-                        <a href="/soccer"><img src="/img/m2s.gif"></a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-
-        </td>
-    </tr>
-    <tr>
-        <td background="/img/m1b.gif" valign="top">
-
-            <table align="center" cellpadding="3" cellspacing="3" width="90%">
-                <tbody>
-
-                
-<tr>
-    <td>
-        <table cellpadding="0" cellspacing="0">
-        <tbody><tr>
-            <td width="24">
-                <a href="https://ltbgirights.xyz/view/c58u6bbtsmnxz7f?l=3707025290" rel="sponsored"><img src="/img/category/tennis.png" width="20"></a>
-            </td>
-            <td>
-                <a href="https://ltbgirights.xyz/view/c58u6bbtsmnxz7f?l=3707025290" rel ="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="24">
-            </td>
-            <td>
-                <span class="date"><a class="greyhref" href="/tennis">Tennis</a> <img src="/img/live.gif"><br>Today,
-                03:10
-            </span></td>
-        </tr>
-        </tbody></table>
-    </td>
-</tr>
-
-
-<tr>
-    <td>
-        <table cellpadding="0" cellspacing="0">
-        <tbody><tr>
-            <td width="24">
-                <a href="https://ltbgirights.xyz/view/3ddojcbw3e8nipo?l=3707025290" rel="sponsored"><img src="/img/category/tennis.png" width="20"></a>
-            </td>
-            <td>
-                <a href="https://ltbgirights.xyz/view/3ddojcbw3e8nipo?l=3707025290" rel ="sponsored">Sinner, Jannik - Zverev, Alexander</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="24">
-            </td>
-            <td>
-                <span class="date"><a class="greyhref" href="/tennis">Tennis</a> <img src="/img/live.gif"><br>Tomorrow,
-                23:12
-            </span></td>
-        </tr>
-        </tbody></table>
-    </td>
-</tr>
-
-
-<tr>
-    <td>
-        <table cellpadding="0" cellspacing="0">
-        <tbody><tr>
-            <td width="24">
-                <a href="https://ltbgirights.xyz/view/mqjushh5748u029?l=3707025290" rel="sponsored"><img src="/img/category/tennis.png" width="20"></a>
-            </td>
-            <td>
-                <a href="https://ltbgirights.xyz/view/mqjushh5748u029?l=3707025290" rel ="sponsored">Daniel, Taro - Fucsovics, Marton</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="24">
-            </td>
-            <td>
-                <span class="date"><a class="greyhref" href="/tennis">Tennis</a> <img src="/img/live.gif"><br>Tomorrow,
-                22:53
-            </span></td>
-        </tr>
-        </tbody></table>
-    </td>
-</tr>
-
-
-    <tr>
-        <td>
-            <table cellpadding="0" cellspacing="0">
-            <tbody><tr>
-                <td width="24">
-                    <a href="https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36?l=3707025290" rel="sponsored"><img src="/img/category/tennis.png" width="20"></a>
-                </td>
-                <td>
-                    <a href="https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36?l=3707025290" rel="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
-                </td>
-            </tr>
-            <tr>
-                <td width="24">
-                </td>
-                <td>
-                    <span class="date"><a class="greyhref" href="/tennis">Tennis</a> <img src="/img/live.gif"><br>Today,
-                    03:10
-                </span></td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-
-    
-    <tr>
-        <td>
-            <table cellpadding="0" cellspacing="0">
-            <tbody><tr>
-                <td width="24">
-                    <a href="https://borbone.xyz/2/3dzmfsh7v6/10xl0214fk509d46?l=3707025290" rel="sponsored"><img src="/img/category/tennis.png" width="20"></a>
-                </td>
-                <td>
-                    <a href="https://borbone.xyz/2/3dzmfsh7v6/10xl0214fk509d46?l=3707025290" rel="sponsored">Sinner, Jannik - Zverev, Alexander</a>
-                </td>
-            </tr>
-            <tr>
-                <td width="24">
-                </td>
-                <td>
-                    <span class="date"><a class="greyhref" href="/tennis">Tennis</a> <img src="/img/live.gif"><br>Tomorrow,
-                    23:12
-                </span></td>
-            </tr>
-            </tbody></table>
-        </td>
-    </tr>
-
-    
-                </tbody>
-            </table>
-        </td>
-
-        <td background="/img/m2b.gif" bgcolor="#ffffff" valign="top">
-            <table align="center" cellpadding="3" cellspacing="3" width="90%">
-                <tbody>
-
-
-                </tbody>
-            </table>
-
-        </td>
-    </tr>
-    </tbody>
-
-</table>
-
-
-                            <table cellpadding=0 cellspacing=0 width="100%" bgcolor="#094166">
-                                <tr>
-                                    <td align="center" height="100">
-
-                                        <a rel="sponsored" href="https://mu.fastmui.com/redirect.aspx?pid=121209&bid=2112&lpid=1979" target="_blank">
-<img src="https://papatrol.xyz/202403_woo/vb_woo.gif" width="468" height="60"> </a>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table width="100%" cellpadding=0 style="margin-top: 11px;">
-                                <tbody>
-                                <tr>
-                                    <td>
-
-                                        &nbsp;
-
-                                    </td>
-
-                                    
-
-<td width="33%" valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://borbone.xyz/2/dlr4fm1j7x/10d3a214b9514g36?safe_links=true" rel="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        <td valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://ltbgirights.xyz/view/c58u6bbtsmnxz7f" rel="sponsored">Tiafoe, Frances - Rune, Holger Vitus Nødskov</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        <td width="33%" valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://borbone.xyz/2/3dzmfsh7v6/10xl0214fk509d46?safe_links=true" rel="sponsored">Sinner, Jannik - Zverev, Alexander</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        </tr><tr>
-                    <td>
-                &nbsp;
-            </td><td width="33%" valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://ltbgirights.xyz/view/3ddojcbw3e8nipo" rel="sponsored">Sinner, Jannik - Zverev, Alexander</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        <td valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://borbone.xyz/2/jh37i493b4/10cds214ie433t54?safe_links=true" rel="sponsored">Daniel, Taro - Fucsovics, Marton</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        <td width="33%" valign="top">
-                                <table cellpadding="0" cellspacing="0">
-                                <tbody><tr>
-                                    <td width="22">
-
-                                        <img src="/img/category/tennis.png" width="20">
-
-                                    </td>
-                                    <td class="small">
-
-                                       <a href="https://ltbgirights.xyz/view/mqjushh5748u029" rel="sponsored">Daniel, Taro - Fucsovics, Marton</a>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-
-                                    </td>
-                                    <td>
-
-                                        <a class="small blackhref" href="/tennis">Tennis</a>
-
-                                    </td>
-                                </tr>
-                                </tbody></table>
-        </tr></tr><tr><td> &nbsp;</td><td></td><td></td><td></td></tr>
-                                </tr>
-                                </tbody>
-                            </table>
-
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td height=90 colspan=2 bgcolor="#123456">
-                            <table cellpadding=0 cellspacing=0 width="100%" bgcolor="#000">
-                                <tr>
-                                    <td align="center">
-
-                                        <a rel="sponsored" href="https://mu.fastmui.com/redirect.aspx?pid=121209&bid=2112&lpid=1979" target="_blank">
-<img src="https://papatrol.xyz/202403_woo/topb_woo.gif" width="728" height="90"> </a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="background-repeat: repeat-y;" colspan=2 bgcolor="#ffffff" background="/img/mrb.gif">
-
-                            <br><br>
-
-
-                            <table cellpadding=0 cellspacing=1 width="100%">
-                                <!--
-                                <tr bgcolor="#2862a8">
-                                    <td height=25 width="50%">
-
-                                        &nbsp;&nbsp;
-                                        <span class="liveb1"><b>This Month's Sport Events</b></span>
-
-                                    </td>
-                                    <td height=25 width="50%">
-
-                                        <table cellpadding=0 cellspacing=0><tr><td>
-                                        &nbsp;&nbsp;
-                                        <a class="mwhite" href="/allupcoming/">Matchday Videos and Previews</a>
-                                        </td><td>
-                                        &nbsp;&nbsp;&nbsp;
-                                        <a href="/allupcoming/"><img src="/img/m1s.gif"></a>
-                                        </td></tr></table>
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td valign="top">
-
-                                <table style="padding: 12px;">
-
-                                    <tr>
-                                        <td valign="top">
-
-                                            <a href="/en/competitions/119/20151015_20151018/"><img src="/img/majorcompetitions/218.png"></a>
-
-                                            <br><br>
-
-                                        </td>
-                                        <td valign="top">
-
-                                            <div class="text">
-                                            <a href="/en/competitions/119/20151015_20151018/"><b>Australian Grand Prix</b></a>
-                                            <br>
-                                            15 &ndash; 18 October <span class="graydesc">(Racing)</span>
-                                            <br>
-                                            Phillip Island Grand Prix Circuit, Phillip Island, Australia
-                                            </div>
-
-                                            <br>
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td valign="top">
-
-                                            <a href="/en/competitions/281/20151009_20151018/"><img src="/img/majorcompetitions/304.png"></a>
-
-                                            <br><br>
-
-                                        </td>
-                                        <td valign="top">
-
-                                            <div class="text">
-                                            <a href="/en/competitions/281/20151009_20151018/"><b>2015 Men's European Championship</b></a>
-                                            <br>
-                                            9 &ndash; 18 October <span class="graydesc">(Volleyball)</span>
-                                            <br>
-                                            Bulgaria, Italy
-                                            </div>
-
-                                            <br>
-
-                                        </td>
-                                    </tr>
-
-                                <tr>
-                                    <td>
-
-                                        &nbsp;
-
-                                    </td>
-                                    <td>
-
-                                        <br>
-
-                                        <a class="small" href="/en/majorcompetitions/">Show Full Calendar</a> <img src="/img/s_b.gif">
-
-                                        <br>
-
-                                    </td>
-                                </tr>
-                                </table>
-
-                                </td>
-                                <td>
-
-                                    <table align="center" cellpadding=3 cellspacing=3 width="99%">
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/286276_matchday_highlights_round_7/">Spanish Segunda Division. Round 7</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/285869_matchday_highlights_round_8/">Dutch Eredivisie. Round 8</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/285801_matchday_highlights_round_11/">Swiss Super League. Round 11</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/285519_matchday_highlights_round_11/">Austrian Bundesliga. Round 11</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/285518_matchday_highlights_round_11/">Danish Superliga. Round 11</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>
-
-                                            <a class="small" href="/en/showvideo/285517_matchday_highlights_round_7/">Portuguese Primeira Liga. Round 7</a><br>
-                                            <span class="evdesc">Matchday Highlights</span>
-
-
-                                        </td>
-                                    </tr>
-                                                        </table>
-
-                                                <br>
-
-                                        </td>
-                                    </tr>
-                                -->
-                            </table>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan=2 bgcolor="#e10000" height=1>
-
-                        </td>
-                    </tr>
-                </table>
-
-                
-
-        </td>
-    </tr>
-</table>
-
-<br>
-
-</td>
-</tr>
-<tr>
-    <td>
-<br><h2>LiveTV Streams</h2>LiveTV is a free website for live sport streams, sport videos and live score. We offer you a great possibility to follow numerous live sport events.
-<br></br>
-LiveTV helps fans all over the world to watch live 
-<a href="https://liveru.sx/football">US football</a>,
-<a href="https://liveru.sx/basketball">basketball</a>, 
-<a href="https://liveru.sx/soccer">soccer</a>, <a href="https://liveru.sx/hockey">hockey</a> and many other sports. Right from the stadium to your living room.
-<br></br>
-All the sport streams are free, we don't charge anything for using our site and never will.
-<br></br>
-We try to keep watching sports with us as simple as possible. You don't need to install anything, the link you click on will take you to the stream and it will open in your browser. Close the ads and enjoy.
-        <table width="100%" cellpadding=0 cellspacing=4 style="margin-bottom: 5px;">
-        <tr>
-            <td>
-            
-                <table width="100%" bgcolor="#737373" cellpadding=0 cellspacing=1>
-                <tr>
-
-                    <td bgcolor="#ffffff" valign="top">
-                    
-                        <table width="100%" cellpadding=4 cellspacing=1>
-                        <tr>
-                            <td bgcolor="#2862a8">
-                                <span class="whitetitle">LiveTV SPONSORED ADS</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                            
-                                <a rel="sponsored" href="https://mu.fastmui.com/redirect.aspx?pid=121209&bid=2112&lpid=1979" target="_blank">
-<img src="https://papatrol.xyz/202403_woo/topb_woo.gif" width="728" height="90"> </a>                      
-                            </td>
-                        </tr>
-                        </table>    
-                        
-                    </td>
-                </tr>
-                </table>    
-            </td>
-        </tr>
-        </table>
-                
-    </td>
-</tr>
-<tr>
-    <td height=25>
-    
-        <table width="100%" height=25 cellpadding=0 cellspacing=0>
-        <td>
-            <td width=107 background="/img/b.gif">
-            
-                &nbsp;
-                
-            </td>
-            <td background="/img/b2.gif">
-            
-                <table width="99%" align="center">
-                <tr>
-                    <td>
-                    
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                                            
-                        <a class="bottom" href="/tos/">LiveTV Rules</a>
-                        
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        
-                                            
-                        <a class="bottom" href="/dmca">DMCA Policy</a>
-                        
-                                            
-                    </td>
-                    <td align=right>
-                    
-                        <a class="bottom" href="#top">Go to top</a>
-                        
-                        &nbsp;&nbsp;
-                    
-                    </td>                   
-                </tr>
-                </table>
-                                        
-            </td>
-        </tr>
-        </table>
-        
-    </td>
-</tr>
-<tr>
-    <td bgcolor="#ffffff" height=70>    
-        
-        <noindex>
-    
-        <table cellpadding=0 cellspacing=0 WIDTH="100%" height=74 bgcolor="#ffffff">
-        <tr>
-            <td width=17>
-                &nbsp;
-                
-            </td>
-            <td>
-                
-                            
-                <span class="bottomgray">
-                <img alt="" src="/img/pip.gif">&nbsp;
-                <a class=bottomgray href="javascript:window.external.AddFavorite('https://liveru.sx/','LiveTV / Free Live Sport Streams');">Add to Favorites (IE)</a>
-                <br>
-                <img alt="" src="/img/pip.gif">&nbsp;
-                <a class=bottomgray href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('https://liveru.sx/');">Make Home Page (IE)</a>
-                </span>
-                
-                                
-            </td>
-            <td>
-                
-                                
-            </td>
-            <td align=right>
-            
-                <span class="bottomgray">
-                © 2006-2024 <b>LiveTV</b>. All rights reserved. <br>All club and channel names as well as all logos are the property of their respective owners.                </span>
-                
-            </td>
-            <td align="centet" width=204>
-            
-            
-            </td>               
-        </tr>
-        </table>
-        
-        </noindex>
-        
-        <img src="/img/980.gif" width=980 height=1>
-        
-    </td>
-</tr>
-</table>    
-
-
-                </td>
-                <td style="display: block;"></td>
-            </tr>
-            </table>
-          
-
-
-
-
-
+                muteButton.textContent = "🔊 Unmute";  // Change button text
+                muteButton.style.backgroundColor = '#28a745';  // Green color
+            } else {
+                // Mute the video
+                try {
+                    frameWindow.postMessage({ event: 'command', func: 'mute', args: [] }, '*');
+                } catch (error) {
+                    console.warn('Mute not supported for this iframe content.');
+                }
+                muteButton.textContent = "🔇 Mute";  // Change button text
+                muteButton.style.backgroundColor = '#dc3545';  // Red color
+            }
+
+            isMuted = !isMuted;  // Toggle the mute state
+        }
+
+        // Function to enable fullscreen for the video iframe
+        function goFullscreen() {
+            const videoFrame = document.getElementById('videoFrame');
+            if (videoFrame.requestFullscreen) {
+                videoFrame.requestFullscreen();
+            } else if (videoFrame.mozRequestFullScreen) {
+                videoFrame.mozRequestFullScreen(); // Firefox
+            } else if (videoFrame.webkitRequestFullscreen) {
+                videoFrame.webkitRequestFullscreen(); // Chrome, Safari, and Opera
+            } else if (videoFrame.msRequestFullscreen) {
+                videoFrame.msRequestFullscreen(); // IE/Edge
+            }
+        }
+    </script>
 
 </body>
 </html>
